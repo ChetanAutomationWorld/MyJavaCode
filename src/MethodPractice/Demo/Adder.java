@@ -5,8 +5,13 @@ public class Adder {
     int a=10, b=20;
 
     void sum(){               // 1.
+
         System.out.println(a+b);
     }
+// we shouldn't consider return type in overloading
+//    int sum(){
+//        return(a+b);
+//    }
 
     void sum(int x, int y){   //2.
         System.out.println(x+y);
