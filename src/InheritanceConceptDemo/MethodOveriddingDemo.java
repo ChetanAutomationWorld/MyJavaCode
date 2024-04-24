@@ -3,7 +3,7 @@ package InheritanceConceptDemo;
 
     class Bank {
 
-        double rio(){
+        double roi(){
 
             return 0;
         }
@@ -11,7 +11,7 @@ package InheritanceConceptDemo;
 
     class ICCI extends Bank{
 
-        double rio(){
+        double roi(){
 
             return 10.5;
         }
@@ -19,7 +19,7 @@ package InheritanceConceptDemo;
 
     class SBI extends Bank{
 
-        double rio(){
+        double roi(){
 
             return 20.5;
         }
@@ -29,10 +29,10 @@ public class MethodOveriddingDemo {
     public static void main(String[] args) {
 
         ICCI obj = new ICCI();
-        System.out.println(obj.rio());
+        System.out.println(obj.roi());
 
         SBI obj1 = new SBI();
-        System.out.println(obj1.rio());
+        System.out.println(obj1.roi());
 
 
     }

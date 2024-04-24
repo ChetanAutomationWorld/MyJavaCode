@@ -4,7 +4,16 @@ public class Thiskeyword {
 
     int x,y;     // Class Varibale/instamce variable
 
-    Thiskeyword(int x, int y){
+    //This Keyword: Its represents Class/Object
+
+    //Constructor
+//    Thiskeyword(int x, int y){
+//
+//        this.x = x;
+//        this.y = y;
+//    }
+    //User definded methd
+    void setData(int x, int y){
 
         this.x = x;
         this.y = y;
@@ -17,7 +26,12 @@ public class Thiskeyword {
 
     public static void main(String[] args) {
 
-        Thiskeyword th =  new Thiskeyword(100,200);
+        //Constructor calling
+        //Thiskeyword th =  new Thiskeyword(100,200);
+
+        Thiskeyword th = new Thiskeyword();
+        th.setData(100,200);
+
         th.displayData();
 
 
